@@ -78,18 +78,10 @@ def get_indicator_line_chart(
         .encode(
             x="Year:O",
             y=alt.Y(
-                randomly_chosen_column.replace(":", r"\:"),
+                f"{randomly_chosen_column.replace(":", r"\:")}",
                 title=f"{randomly_chosen_column}",
             ),
-<<<<<<< HEAD
-<<<<<<< HEAD
             color=alt.Color("Country Name:N", scale=alt.Scale(scheme="purples"), title="Indicators"),
-=======
-            color=alt.Color("Country Name:N", scale=alt.Scale(scheme="purples")),
->>>>>>> 52e66ea3c3becf46cb0b0a3bd8b4dd665f5ec914
-=======
-            color=alt.Color("Country Name:N", scale=alt.Scale(scheme="purples")),
->>>>>>> 52e66ea3c3becf46cb0b0a3bd8b4dd665f5ec914
             tooltip=["Country Name", "Year", randomly_chosen_column],
         )
         .properties(title=f"{randomly_chosen_column} by Year in {country}", width=1000)
@@ -103,15 +95,7 @@ def get_eurovision_line_chart(filtered_data: pd.DataFrame, country: str) -> alt.
         .encode(
             x="Year:O",
             y=alt.Y("Grand Final Place", scale=alt.Scale(reverse=True)),
-<<<<<<< HEAD
-<<<<<<< HEAD
             color=alt.Color("Country Name:N", scale=alt.Scale(scheme="magma"), title="Eurovision Place"),
-=======
-            color=alt.Color("Country Name:N", scale=alt.Scale(scheme="magma")),
->>>>>>> 52e66ea3c3becf46cb0b0a3bd8b4dd665f5ec914
-=======
-            color=alt.Color("Country Name:N", scale=alt.Scale(scheme="magma")),
->>>>>>> 52e66ea3c3becf46cb0b0a3bd8b4dd665f5ec914
             tooltip=["Country Name", "Year", "Grand Final Place"],
         )
         .properties(title=f"{country} Eurovision Final Place", width=1000)
@@ -129,15 +113,7 @@ def get_layered_chart(
         .resolve_scale(y="independent", color="independent")
         .properties(
             title=f"{randomly_chosen_column} and Eurovision Place by Year in {country}",
-<<<<<<< HEAD
-<<<<<<< HEAD
             width=1000
-=======
-            width=1000,
->>>>>>> 52e66ea3c3becf46cb0b0a3bd8b4dd665f5ec914
-=======
-            width=1000,
->>>>>>> 52e66ea3c3becf46cb0b0a3bd8b4dd665f5ec914
         )
     )
 
