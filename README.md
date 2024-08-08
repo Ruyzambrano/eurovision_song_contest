@@ -1,8 +1,14 @@
 # Eurovision Song Contest Data Exploration
 
 ## Eurovision Language Data
-![test](visualisations/eurovision/count_chart.png)
 
+Clearly, there is a preference for English in the Eurovision Song Contest:
+
+![Times a song has used x language](visualisations/eurovision/count_chart.png)
+![Total points scored by songs with x language](visualisations/eurovision/points_chart.png)
+
+However, using English does not always mean higher points:
+![Average points for songs in x language](visualisations/eurovision/averages_chart.png)
 
 ## World Bank Data
 
