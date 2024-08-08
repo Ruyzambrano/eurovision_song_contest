@@ -8,7 +8,7 @@
 
 ### Refugees and Eurovision Final Place
 
-Some countries showed some weak correlation between their success in Eurovision versus the refugee population:
+Some countries showed some weak correlation between their success in Eurovision (red) versus the refugee population (blue):
 
 > Austria
 > ![Refugees and Austria](visualisations/combined/Austria/Austria_refugee_population_by_country_or_territory_of_origin.png)
