@@ -1,0 +1,6 @@
+Run at <built-in method now of type object at 0x100ac1bc8>:
+Best Parameters: {'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 300}
+Best RMSE via GridSearchCV: 21.834940980713395
+Root Mean Squared Error with Best Model: 20.350522482054455
+Cross-Validation RMSE scores: [ 2.16189231 35.06866258 35.60824252 23.78682515 37.96141396]
+Average Cross-Validation RMSE: 26.9174073042444

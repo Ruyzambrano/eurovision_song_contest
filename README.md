@@ -1,5 +1,17 @@
 # Eurovision Song Contest Data Exploration
 
+## Setup
+
+```sh
+pip install -r requirements.txt
+```
+
+if you are using mac:
+```sh
+brew install libomp
+```
+
+
 ## Eurovision Language Data
 
 Clearly, there is a preference for English in the Eurovision Song Contest:
