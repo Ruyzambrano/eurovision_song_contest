@@ -27,3 +27,303 @@ Outputs:
 	AS_test: 0.9032494349556565
 	PS_test: 0.558698195738966
 	RS_test: 0.3712660028449502
+
+Run at: 2024-10-08 10:25:30.789430
+Weights = (0.9, 0.1)
+Outputs:
+	RMSE_train: 6.081358748359942
+	MAE_train: 3.576307363927428
+	MAPE_train: 1.0
+	R2_train: 0.22305551615530606
+	NSE_train: 0.22305551615530606
+	KGE_train: 0.5436428902600411
+	RMSE_test: 6.818517169217456
+	MAE_test: 4.520625889046942
+	MAPE_test: 1.0
+	R2_test: 0.058136206917047684
+	NSE_test: 0.058136206917047684
+	KGE_test: 0.44630686608278103
+
+Best parameters: {best_params}
+Best cross-validation score: {best_score}
+Test Accuracy: {test_accuracy}
+Test Precision: {test_precision}
+Test Recall: {test_recall}
+
+Run at: 2024-10-08 13:19:31.873786
+Weights = (0.9, 0.1)
+Outputs:
+	RMSE_train: 6.285341204098534	MAE_train: 3.6250444681607967	MAPE_train: 1.0	R2_train: 0.17006045719030327	NSE_train: 0.17006045719030327	KGE_train: 0.5096705850866232	RMSE_test: 6.817995600715785	MAE_test: 4.385490753911807	MAPE_test: 1.0	R2_test: 0.058280293288526575	NSE_test: 0.058280293288526575	KGE_test: 0.4342110286762467
+	Best parameters: {best_params}
+	Best cross-validation score: {best_score}
+	Test Accuracy: {test_accuracy}
+	Test Precision: {test_precision}
+	Test Recall: {test_recall}
+
+Run at: 2024-10-08 13:20:09.392983
+Weights = (0.9, 0.1)
+Outputs:
+	RMSE_train: 6.285341204098534
+	MAE_train: 3.6250444681607967
+	MAPE_train: 1.0
+	R2_train: 0.17006045719030327
+	NSE_train: 0.17006045719030327
+	KGE_train: 0.5096705850866232
+	RMSE_test: 6.817995600715785
+	MAE_test: 4.385490753911807
+	MAPE_test: 1.0
+	R2_test: 0.058280293288526575
+	NSE_test: 0.058280293288526575
+	KGE_test: 0.4342110286762467
+
+	Best parameters: {best_params}
+	Best cross-validation score: {best_score}
+	Test Accuracy: {test_accuracy}
+	Test Precision: {test_precision}
+	Test Recall: {test_recall}
+
+Run at: 2024-10-08 13:20:21.276123
+Weights = (0.9, 0.1)
+Outputs:
+	RMSE_train: 6.285341204098534
+	MAE_train: 3.6250444681607967
+	MAPE_train: 1.0
+	R2_train: 0.17006045719030327
+	NSE_train: 0.17006045719030327
+	KGE_train: 0.5096705850866232
+	RMSE_test: 6.817995600715785
+	MAE_test: 4.385490753911807
+	MAPE_test: 1.0
+	R2_test: 0.058280293288526575
+	NSE_test: 0.058280293288526575
+	KGE_test: 0.4342110286762467
+	Best parameters: {best_params}
+	Best cross-validation score: {best_score}
+	Test Accuracy: {test_accuracy}
+	Test Precision: {test_precision}
+	Test Recall: {test_recall}
+
+Run at: 2024-10-08 13:20:37.244295
+Weights = (0.9, 0.1)
+Outputs:
+	RMSE_train: 6.285341204098534
+	MAE_train: 3.6250444681607967
+	MAPE_train: 1.0
+	R2_train: 0.17006045719030327
+	NSE_train: 0.17006045719030327
+	KGE_train: 0.5096705850866232
+	RMSE_test: 6.817995600715785
+	MAE_test: 4.385490753911807
+	MAPE_test: 1.0
+	R2_test: 0.058280293288526575
+	NSE_test: 0.058280293288526575
+	KGE_test: 0.4342110286762467
+	Best parameters: {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: 0.5211665308312621
+	Test Accuracy: 0.7709815078236131
+	Test Precision: 0.7948035803059122
+	Test Recall: 0.7709815078236131
+
+Run at: 2024-10-08 13:56:51.864521
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.360396408714412
+	MAE_train: 3.6919245819992885
+	MAPE_train: 1.0
+	R2_train: 0.15012098217709957
+	NSE_train: 0.15012098217709957
+	KGE_train: 0.5000438841120656
+	RMSE_test: 7.120183480941763
+	MAE_test: 4.662873399715505
+	MAPE_test: 1.0
+	R2_test: -0.027047655901248913
+	NSE_test: -0.027047655901248913
+	KGE_test: 0.38048589703250424
+	Best parameters: {'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: 0.47918680996036306
+	Test Accuracy: 0.6401137980085349
+	Test Precision: 0.665790982024827
+	Test Recall: 0.6401137980085349
+
+Run at: 2024-10-08 14:08:39.619389
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.247589360790298
+	MAE_train: 3.617218071860548
+	MAPE_train: 1.0
+	R2_train: 0.18000030043151805
+	NSE_train: 0.18000030043151805
+	KGE_train: 0.5177561291684629
+	RMSE_test: 7.021811172905279
+	MAE_test: 4.594594594594595
+	MAPE_test: 1.0
+	R2_test: 0.0011356383600142905
+	NSE_test: 0.0011356383600142905
+	KGE_test: 0.40974094499235414
+	Best parameters: {'C': 0.1, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: nan
+	Test RMSE: : 6.8920919760937425
+	Test MAE: 5.5615885394342435
+	Test R²: 0.03770029102684547
+
+Run at: 2024-10-08 14:34:56.642507
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.247589360790298
+	MAE_train: 3.617218071860548
+	MAPE_train: 1.0
+	R2_train: 0.18000030043151805
+	NSE_train: 0.18000030043151805
+	KGE_train: 0.5177561291684629
+	RMSE_test: 7.021811172905279
+	MAE_test: 4.594594594594595
+	MAPE_test: 1.0
+	R2_test: 0.0011356383600142905
+	NSE_test: 0.0011356383600142905
+	KGE_test: 0.40974094499235414
+	Best parameters: {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: -27.073486445490442
+	Test RMSE: : 4.179498538580857
+	Test MAE: 2.507632722972002
+	Test R²: 0.6461195419129477
+
+Run at: 2024-10-08 15:02:09.307639
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.247589360790298
+	MAE_train: 3.617218071860548
+	MAPE_train: 1.0
+	R2_train: 0.18000030043151805
+	NSE_train: 0.18000030043151805
+	KGE_train: 0.5177561291684629
+	RMSE_test: 7.021811172905279
+	MAE_test: 4.594594594594595
+	MAPE_test: 1.0
+	R2_test: 0.0011356383600142905
+	NSE_test: 0.0011356383600142905
+	KGE_test: 0.40974094499235414
+GridSearch Results
+	Best parameters: {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: -27.073486445490442
+	Test RMSE: : 4.179498538580857
+	Test MAE: 2.507632722972002
+	Test R²: 0.6461195419129477
+Random Forest Regressor:
+	Test RMSE: 5.152727091190103
+	Test MAE: 4.170170421086193
+	Test R²: 0.46212357757450173
+	Best parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+
+Run at: 2024-10-08 15:23:44.392717
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.247589360790298
+	MAE_train: 3.617218071860548
+	MAPE_train: 1.0
+	R2_train: 0.18000030043151805
+	NSE_train: 0.18000030043151805
+	KGE_train: 0.5177561291684629
+	RMSE_test: 7.021811172905279
+	MAE_test: 4.594594594594595
+	MAPE_test: 1.0
+	R2_test: 0.0011356383600142905
+	NSE_test: 0.0011356383600142905
+	KGE_test: 0.40974094499235414
+GridSearch Results
+	Best parameters: {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: -27.073486445490442
+	Test RMSE: : 4.179498538580857
+	Test MAE: 2.507632722972002
+	Test R²: 0.6461195419129477
+Random Forest Regressor:
+	Test RMSE: 5.152727091190103
+	Test MAE: 4.170170421086193
+	Test R²: 0.46212357757450173
+	Best parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+Gradient Boosting
+	Test RMSE: 1.3988277590642564
+	Test MAE: 0.7812114035621573
+	Test R²: 0.960359720359343
+	Best parameters: {'learning_rate': 0.1, 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}
+
+Run at: 2024-10-08 15:38:47.587811
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.247589360790298
+	MAE_train: 3.617218071860548
+	MAPE_train: 1.0
+	R2_train: 0.18000030043151805
+	NSE_train: 0.18000030043151805
+	KGE_train: 0.5177561291684629
+	RMSE_test: 7.021811172905279
+	MAE_test: 4.594594594594595
+	MAPE_test: 1.0
+	R2_test: 0.0011356383600142905
+	NSE_test: 0.0011356383600142905
+	KGE_test: 0.40974094499235414
+GridSearch Results
+	Best parameters: {'C': 100, 'gamma': 0.01, 'kernel': 'rbf'}
+	Best cross-validation score: -27.073486445490442
+	Test RMSE: : 4.179498538580857
+	Test MAE: 2.507632722972002
+	Test R²: 0.6461195419129477
+Random Forest Regressor:
+	Test RMSE: 5.152727091190103
+	Test MAE: 4.170170421086193
+	Test R²: 0.46212357757450173
+	Best parameters: {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+Gradient Boosting
+	Test RMSE: 1.3988277590642564
+	Test MAE: 0.7812114035621573
+	Test R²: 0.960359720359343
+	Best parameters: {'learning_rate': 0.1, 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 300}
+XGBoost
+	Test RMSE: 1.1401311758952994
+	Test MAE: 0.6885667940711664
+	Test R²: 0.9736659526824951
+	Best parameters: {'colsample_bytree': 0.7, 'learning_rate': 0.2, 'max_depth': 5, 'n_estimators': 300}
+
+Run at: 2024-10-08 17:42:38.341171
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.084838363944652
+	MAE_train: 3.590181430096051
+	MAPE_train: 1.0
+	R2_train: 0.22216616176003945
+	NSE_train: 0.22216616176003945
+	KGE_train: 0.5105487803786962
+	RMSE_test: 7.102080315510791
+	MAE_test: 4.908961593172119
+	MAPE_test: 1.0
+	R2_test: -0.02183172925371446
+	NSE_test: -0.02183172925371446
+	KGE_test: 0.32638202381968373
+Random Forest Regressor:
+	Test RMSE: {test_rmse_rf}
+	Test MAE: {test_mae_rf}
+	Test R²: {test_r2_rf}
+	Best parameters: 
+	max_depth: 10
+	max_features: sqrt
+	min_samples_leaf: 1
+	min_samples_split: 2
+	n_estimators: 100
+Gradient Boosting
+	Test RMSE: {test_rmse_gb}
+	Test MAE: {test_mae_gb}
+	Test R²: {test_r2_gb}
+	Best parameters: 
+	learning_rate: 0.2
+	max_depth: 5
+	min_samples_leaf: 2
+	min_samples_split: 5
+	n_estimators: 300
+XGBoost
+	Test RMSE: {test_rmse_xgb}
+	Test MAE: {test_mae_xgb}
+	Test R²: {test_r2_xgb}
+	Best parameters: 
+	colsample_bytree: 0.7
+	learning_rate: 0.2
+	max_depth: 5
+	n_estimators: 300
