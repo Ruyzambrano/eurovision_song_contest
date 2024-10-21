@@ -327,3 +327,49 @@ XGBoost
 	learning_rate: 0.2
 	max_depth: 5
 	n_estimators: 300
+
+
+Run at: 2024-10-21 15:01:48.856854
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 6.369953482085048
+	MAE_train: 3.7872643187477766
+	MAPE_train: 1.0
+	R2_train: 0.1475650224865015
+	NSE_train: 0.1475650224865015
+	KGE_train: 0.4930734726682814
+	RMSE_test: 6.898471185282131
+	MAE_test: 4.647226173541963
+	MAPE_test: 1.0
+	R2_test: 0.03591808843500888
+	NSE_test: 0.03591808843500888
+	KGE_test: 0.4279639876210033
+Random Forest Regressor:
+	Test RMSE: 5.25546010500264
+	Test MAE: 4.215658583605033
+	Test R²: 0.4404618370714425
+	Best parameters: 
+	max_depth: 10
+	max_features: sqrt
+	min_samples_leaf: 1
+	min_samples_split: 2
+	n_estimators: 100
+Gradient Boosting
+	Test RMSE: 1.1893783915377896
+	Test MAE: 0.6072201612700227
+	Test R²: 0.9713418393144176
+	Best parameters: 
+	learning_rate: 0.2
+	max_depth: 5
+	min_samples_leaf: 4
+	min_samples_split: 2
+	n_estimators: 300
+XGBoost
+	Test RMSE: 1.4721340719190512
+	Test MAE: 0.8319332377275036
+	Test R²: 0.9560961127281189
+	Best parameters: 
+	colsample_bytree: 0.7
+	learning_rate: 0.2
+	max_depth: 5
+	n_estimators: 300
