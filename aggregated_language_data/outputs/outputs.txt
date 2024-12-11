@@ -1,0 +1,265 @@
+
+Run at: 2024-10-21 16:23:38.957769
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.2422585351137725
+	MAE_train: 3.961231801432275
+	MAPE_train: 1.0
+	R2_train: 0.28355139070274693
+	NSE_train: 0.28355139070274693
+	KGE_train: 0.20540435795266143
+	RMSE_test: 5.3655156124785135
+	MAE_test: 4.157914208531593
+	MAPE_test: 1.0
+	R2_test: 0.23446510488312977
+	NSE_test: 0.23446510488312977
+	KGE_test: 0.1873331043694466
+Gradient Boosting
+	Test RMSE: 2.0844050012942175
+	Test MAE: 1.45406707337313
+	Test R²: 0.8844669392410035
+	Best parameters: 
+	learning_rate: 0.1
+	max_depth: 5
+	min_samples_leaf: 1
+	min_samples_split: 10
+	n_estimators: 300
+XGBoost
+	Test RMSE: 2.1770751197222253
+	Test MAE: 1.5621250362155286
+	Test R²: 0.8739656209945679
+	Best parameters: 
+	colsample_bytree: 0.7
+	learning_rate: 0.1
+	max_depth: 4
+	n_estimators: 300
+
+Run at: 2024-10-21 16:42:48.650393
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.158553646950575
+	MAE_train: 3.8751716226878594
+	MAPE_train: 1.0
+	R2_train: 0.30624827519752895
+	NSE_train: 0.30624827519752895
+	KGE_train: 0.22885310278640392
+	RMSE_test: 5.412570362867092
+	MAE_test: 4.221779060007827
+	MAPE_test: 1.0
+	R2_test: 0.22097897979730574
+	NSE_test: 0.22097897979730574
+	KGE_test: 0.18725789264107373
+Gradient Boosting
+	Test RMSE: 1.2904517166479692
+	Test MAE: 0.9171018265169644
+	Test R²: 0.9557181674492892
+	Best parameters: 
+	learning_rate: 0.1
+	max_depth: 5
+	min_samples_leaf: 4
+	min_samples_split: 2
+	n_estimators: 100
+XGBoost
+	Test RMSE: 1.5706826544539276
+	Test MAE: 1.152137301545194
+	Test R²: 0.9343976974487305
+	Best parameters: 
+	colsample_bytree: 0.7
+	learning_rate: 0.1
+	max_depth: 4
+	n_estimators: 200
+
+Run at: 2024-10-21 17:13:21.182739
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.545140935363161
+	MAE_train: 4.1731791526038915
+	MAPE_train: 1.0
+	R2_train: 0.19837112844931715
+	NSE_train: 0.19837112844931715
+	KGE_train: 0.13307886567887817
+	RMSE_test: 5.8793042210690345
+	MAE_test: 4.644104866922294
+	MAPE_test: 1.0
+	R2_test: 0.08083404080357293
+	NSE_test: 0.08083404080357293
+	KGE_test: 0.0022373463357107104
+Gradient Boosting
+	Test RMSE: 5.889854621488888
+	Test MAE: 4.726980517958032
+	Test R²: 0.0775321976971467
+	Best parameters: 
+	learning_rate: 0.01
+	max_depth: 3
+	min_samples_leaf: 4
+	min_samples_split: 10
+	n_estimators: 300
+XGBoost
+	Test RMSE: 5.936966996586394
+	Test MAE: 4.7972455701084
+	Test R²: 0.06271570920944214
+	Best parameters: 
+	colsample_bytree: 0.3
+	learning_rate: 0.01
+	max_depth: 5
+	n_estimators: 200
+Deep Neural Network
+	Test RMSE: 12.031982499398389
+	Test MAE: 6.462318740098189
+	Test R²: -2.849607467651367
+
+Run at: 2024-10-21 17:45:35.675574
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.60994756328076
+	MAE_train: 4.244792383521102
+	MAPE_train: 1.0
+	R2_train: 0.17952419844701284
+	NSE_train: 0.17952419844701284
+	KGE_train: 0.0963249780977673
+	RMSE_test: 5.966409355986769
+	MAE_test: 4.684230452173526
+	MAPE_test: 1.0
+	R2_test: 0.05339638200238761
+	NSE_test: 0.05339638200238761
+	KGE_test: -0.07010447040069767
+Gradient Boosting
+	Test RMSE: 5.8410095745755966
+	Test MAE: 4.761275559984558
+	Test R²: 0.09276895690108511
+	Best parameters: 
+	learning_rate: 0.01
+	max_depth: 3
+	min_samples_leaf: 4
+	min_samples_split: 2
+	n_estimators: 300
+XGBoost
+	Test RMSE: 5.865258125282557
+	Test MAE: 4.749141471605775
+	Test R²: 0.08522075414657593
+	Best parameters: 
+	colsample_bytree: 0.3
+	learning_rate: 0.01
+	max_depth: 4
+	n_estimators: 200
+Deep Neural Network
+	Test RMSE: 18.92646496802239
+	Test MAE: 6.3312350241005
+	Test R²: -8.52535343170166
+
+Run at: 2024-12-10 16:04:24.082767
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.600120417671886
+	MAE_train: 4.230688815715143
+	MAPE_train: 1.0
+	R2_train: 0.18239619431282816
+	NSE_train: 0.18239619431282816
+	KGE_train: 0.10191466291305484
+	RMSE_test: 6.012218929370975
+	MAE_test: 4.713332047844826
+	MAPE_test: 1.0
+	R2_test: 0.03880469848457635
+	NSE_test: 0.03880469848457635
+	KGE_test: -0.08277483716755074
+Gradient Boosting
+	Test RMSE: 5.910850629593868
+	Test MAE: 4.816287818110741
+	Test R²: 0.07094369450428517
+	Best parameters: 
+	learning_rate: 0.01
+	max_depth: 3
+	min_samples_leaf: 1
+	min_samples_split: 2
+	n_estimators: 300
+XGBoost
+	Test RMSE: 5.907209808258639
+	Test MAE: 4.804381539635624
+	Test R²: 0.07208788394927979
+	Best parameters: 
+	colsample_bytree: 0.3
+	learning_rate: 0.01
+	max_depth: 5
+	n_estimators: 200
+Deep Neural Network
+	Test RMSE: 15.136005083833451
+	Test MAE: 6.109125150010941
+	Test R²: -5.092065811157227
+
+Run at: 2024-12-11 08:40:55.363711
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.809586037954924
+	MAE_train: 4.437405499097618
+	MAPE_train: 1.0
+	R2_train: 0.12008940156815173
+	NSE_train: 0.12008940156815173
+	KGE_train: 0.034152709193373765
+	RMSE_test: 6.059359855765944
+	MAE_test: 4.684046740859059
+	MAPE_test: 1.0
+	R2_test: 0.02367242255034485
+	NSE_test: 0.02367242255034485
+	KGE_test: -0.060591842429411624
+Gradient Boosting
+	Test RMSE: 6.0710924836217
+	Test MAE: 4.8256493295458585
+	Test R²: 0.019887871591223405
+	Best parameters: 
+	learning_rate: 0.01
+	max_depth: 5
+	min_samples_leaf: 1
+	min_samples_split: 2
+	n_estimators: 200
+XGBoost
+	Test RMSE: 6.013497817828883
+	Test MAE: 4.756787995074657
+	Test R²: 0.03839576244354248
+	Best parameters: 
+	colsample_bytree: 0.7
+	learning_rate: 0.01
+	max_depth: 5
+	n_estimators: 200
+Deep Neural Network
+	Test RMSE: 34.16350447638272
+	Test MAE: 6.925645599128507
+	Test R²: -30.036083221435547
+
+Run at: 2024-12-11 08:59:04.986868
+Weights = [0.9, 0.1]
+Outputs:
+	RMSE_train: 5.5669594673524445
+	MAE_train: 4.19307670936099
+	MAPE_train: 1.0
+	R2_train: 0.1920503603549869
+	NSE_train: 0.1920503603549869
+	KGE_train: 0.11701805790130126
+	RMSE_test: 5.8818344885807265
+	MAE_test: 4.627545016018758
+	MAPE_test: 1.0
+	R2_test: 0.08004271035402333
+	NSE_test: 0.08004271035402333
+	KGE_test: -0.016991711209708882
+Gradient Boosting
+	Test RMSE: 5.942978864276755
+	Test MAE: 4.798021973192663
+	Test R²: 0.060816536043834635
+	Best parameters: 
+	learning_rate: 0.01
+	max_depth: 3
+	min_samples_leaf: 2
+	min_samples_split: 10
+	n_estimators: 300
+XGBoost
+	Test RMSE: 5.952397318517807
+	Test MAE: 4.831225314038865
+	Test R²: 0.05783730745315552
+	Best parameters: 
+	colsample_bytree: 0.3
+	learning_rate: 0.01
+	max_depth: 4
+	n_estimators: 300
+Deep Neural Network
+	Test RMSE: 20.514174123089397
+	Test MAE: 6.457554963463587
+	Test R²: -10.190516471862793
