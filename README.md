@@ -13,6 +13,8 @@ brew install libomp
 
 ## Running the model
 
+The data has already been cleaned using the [Eurovision exploration](./cleaning_data/eurovision_data_exploration.ipynb), [World Data exploration](./cleaning_data/world_data_cleanin.ipynb) and [combining data](./cleaning_data/combine_data.ipynb) scripts.
+
 Navigate to the [using hot encoding file](./aggregated_language_data/using_hot_encoding_instead_of_exploding.ipynb) and run the script. This will take around an hour to run.
 
 The most recent run of this model produced the following results:
@@ -69,6 +71,12 @@ The process of building the model follows this diagram:
 This contains the _main_ scripts used to produce the machine learning model.
 
 **NOTE**: This directory contains a file, [outputs.txt](./aggregated_language_data/outputs/outputs.txt) that contain the latest runs and testing metrics for the models
+
+### [Feature Selection](./feature_selection/)
+
+Contains an experimental script that runs a Regressive Feature Elimination pipeline for further investigation
+
+**NOTE**: This script requires an immense amount of computational power. This ran for 24 hours on my local machine before I interrupted the process
 
 ### [Cleaning Data](./cleaning_data/)
 
