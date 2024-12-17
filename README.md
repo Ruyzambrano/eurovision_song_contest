@@ -11,6 +11,43 @@ if you are using mac:
 brew install libomp
 ```
 
+## Structure of the Repository
+
+### [Aggregated Language Data](./aggregated_language_data/)
+
+This contains the _main_ scripts used to produce the machine learning model.
+
+**NOTE**: This directory contains a file, [outputs.txt](./aggregated_language_data/outputs/outputs.txt) that contain the latest runs and testing metrics for the models
+
+### [Cleaning Data](./cleaning_data/)
+
+This contains the scripts to clean and combine the datasets.
+
+### [Data](./data/)
+
+This contains the datasets from the World Bank and Eurovision, separated into directories for each country
+
+### [Feature Selection](./feature_selection/)
+
+This contains experimental scripts that use Regressive Feature Elimination pipelines
+
+**NOTE**: This script takes an immense amount of computational power, it ran for over 24 hours on my local machine before I interrupted it
+
+### [Logs](./logs/)
+
+Contains preliminary outputs for early ML models built. These have been discounted because it contains data that should not have been included
+
+### [Test Feature Selection](./test_feature_selection/)
+
+This contains the first round of experiments that have been discounted
+
+### [Visualisations](./visualisations/)
+
+Contains some visualisations from the preliminary data exploration
+
+### Other scripts in the root directory
+
+These scripts are basic data exploration notebooks and visualisation scripts
 
 ## Eurovision Language Data
 
